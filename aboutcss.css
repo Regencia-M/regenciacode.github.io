@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 30px 100px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center; 
+   z-index: 100;
+}
+.logo{
+    font-size: 2em;
+    color: #89ff89;
+    pointer-events: none;
+    margin-right: 276px;
+}
+.navigation a{
+    text-decoration: none;
+    color: #89ff89;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.navigation a:hover,
+.navigation a:active{
+    background: #89ff89;
+    color:white;
+}
+.scroll{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.scroll img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.abouttext{
+    position: relative;
+    background: #003329;
+    padding: 100px; 
+}
+.abouttext h6{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+.abouttext p{
+    font-size: 1em;
+    color:#fff;
+    font-weight: 600;
+}
+.pic{
+    width: 100px;
+    height:100px;
+    align-items: left;
+}
+.form{
+width: 50%;
+border: 1px solid;
+margin: 50px 0;
+padding: 10px 20px;
+border-radius: 5px;
+margin-left: 25%;
+margin-top: 80px;
+box-shadow: 0px 0px 10px 1px;
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    border: 1px solid;
+}
+.form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    border: 1px solid;
+}
+.form button{
+    margin: 10px 0;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 3px;
+    
+}
+button:hover{
+    color:white 
+}
